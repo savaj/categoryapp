@@ -9,7 +9,10 @@ $this->categoryTable = TableRegistry::get('Categorys');
 
 In category add time using table registery instance through added the category newentity 
 and for fill data  added the patch entity.
+
 $Category = $this->categoryTable->newEntity();
+
+
 For cake 3.4 
 use $this->request->getData();
 $Category = $this->categoryTable->patchEntity($Category,$this->request->getData());
