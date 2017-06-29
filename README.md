@@ -7,8 +7,8 @@ Create the global object instance for table registery
 $this->categoryTable = TableRegistry::get('Categorys');
 
 
-In category add time using table registery instance added the category newentity and for fill data and for model validation added the 
-patch entity
+In category add time using table registery instance through added the category newentity 
+and for fill data  added the patch entity.
 $Category = $this->categoryTable->newEntity();
 For cake 3.4 
 use $this->request->getData();
